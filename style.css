@@ -1,0 +1,50 @@
+.open {
+  padding: 50px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.953);
+  overflow-x: hidden;
+  transition: 1s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #966363;
+  display: block;
+  transition: 1s;
+}
+
+.overlay a:hover {
+  color: #d4c4c4;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 70px;
+}
+
+section {
+  padding: 50px;
+  transition: 1s;
+}
